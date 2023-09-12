@@ -9,7 +9,7 @@ public class ContaTerminal {
 
         System.out.print("Por favor, digite o número da Conta: ");
         int numero = scanner.nextInt();
-        scanner.nextLine(); // Consumir a quebra de linha
+        scanner.nextLine(); 
 
         System.out.print("Por favor, digite o nome do Cliente: ");
         String nomeCliente = scanner.nextLine();
